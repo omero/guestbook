@@ -1,0 +1,28 @@
+// Core variables and mixins
+@import "variables";
+@import "flatly";
+
+footer{
+  color:$white;
+}
+
+@media(max-width:767px){
+  #content{
+    margin-bottom:390px;
+  }
+}
+@media(min-width:768px){
+  #content{
+    margin-bottom:310px;
+  }
+}
+@media(min-width:992px){
+  #content{
+    margin-bottom:190px;
+  }
+}
+@media(min-width:1200px){
+  #content{
+    margin-bottom:190px;
+  }
+}
